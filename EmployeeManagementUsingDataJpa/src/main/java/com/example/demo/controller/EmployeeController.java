@@ -23,7 +23,7 @@ import lombok.AllArgsConstructor;
 //collection of all endpoints is know as API
 @RestController  //@Controller+@ResponseBody
 @RequestMapping("/employee") // http://locahost:1234/employees
-@AllArgsConstructor
+@AllArgsConstructor  //hii
 public class EmployeeController {
 
 	//@Autowired   no need to write field injection but use constructor and above write @Autowired(but no need to write autowire)
